@@ -27,9 +27,4 @@ pip install -r requirements.txt
 ```bash
 python forecasting_demo.py
 ```
-3. Open `forecast_results.csv` or load it in Power BI to build a dashboard.
 
-## Notes
-- SARIMA (statsmodels) and XGBoost are included in the notebook/script. If you cannot install these packages, the script prints a helpful message and continues with available models.
-- The sample data is synthetic — replace `sample_data.csv` with your own sales data in the same format (`date, sales`) to run real scenarios.
-- The script is intentionally simple and structured so you can paste parts into a Jupyter notebook for interactive exploration.
